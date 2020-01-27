@@ -1,0 +1,604 @@
+body {
+    margin: 0;
+    padding: 0;
+    text-rendering: optimizeLegibility!important;
+    text-rendering: geometricPrecision!important;
+    font-smooth: always;
+    font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased!important;
+    -webkit-font-smoothing: subpixel-antialiased;
+}
+
+h1, h2, h3, h4, h5, p, a, input, span, li{
+    font-family: "Open Sans", Arial, sans-serif;
+}
+
+button, a {
+    cursor: pointer;
+}
+
+nav {
+    background: #003B6F!important;
+}
+
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+.logo-faculdade{
+    padding: 15px 10px 15px 20px;
+}
+
+.icone-adobe{
+    float: right;
+}
+
+.barra-adobe{
+    background: #D8D8D8;
+    padding: 8px 0 5px 0;
+    text-align: center;
+}
+
+.barra-adobe img{
+    width: 40px;
+    height: 30px;
+    margin-bottom: 10px;
+}
+
+.barra-adobe p{
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 9px;
+    color: #B8A9AA;
+    font-weight: 700;
+}
+
+/* Lista de Softwares ************************/
+.menu-wrapper {
+    opacity: 0.5;
+        text-align: center;
+}
+
+ul {
+    margin: 0 auto 35px;
+    text-align: center;
+    padding: 0;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+    text-align: center;
+    width: 75px;
+}
+
+ul li img {
+    width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0 auto;
+}
+
+ul li span {
+    font-size: 12px;
+    color: #70a5cd;
+}
+
+/** Lista em Celulares *************************************************/
+@media (max-width: 767px) and (min-width: 320px){
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .wrapper {
+    margin: 0 auto;
+    overflow: hidden;
+
+  }
+
+  .menu-wrapper {
+    overflow: hidden;
+    padding: 0 0.5em;
+  }
+
+  .menu {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    white-space: nowrap;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 70px;
+  }
+
+  .menu > li {
+    margin-right: 15px;
+    vertical-align: middle;
+  }
+
+  .menu > li > a {
+    display: block;
+    text-decoration: none;
+    color: #333333;
+    font-size: 16px;
+    padding: 16px;
+  }
+  .menu > li > a:hover {
+    background: rgba(242, 227, 65, 0.7);
+    border-radius: 12px;
+    box-shadow: 1px 1px 5px 1px;
+  }
+
+  a.active {
+    background: #f2e341;
+    color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 1px 1px 5px 1px;
+  }
+}
+
+/**Formulário de Login*********************/
+.login-adobe {
+    margin-top: 20px;
+}
+
+form{
+    width: 300px;
+    min-height: 390px;
+    background: #003C6F;
+    margin: 2px auto;
+    border-radius: 5px;
+    padding: 25px 25px 45px 25px;
+    text-align: center;
+}
+
+form h3{
+    text-align: left;
+    color: #fff;
+    text-transform: uppercase;
+    font-weight: 600;
+    line-height: 25px;
+    padding: 0 25px 0 0;
+    margin: 5px 0 18px 0;
+    font-size: 20px;
+}
+
+input.ra-casper, input.acesso {
+    height: 50px;
+    border-radius: 1px 5px 5px 1px;
+    width: 80%;
+    border: none;
+    background: #F7F9D2;
+    padding: 0 0 0 15px;
+    float: right;
+    position: relative;
+    /*z-index: 0;*/
+}
+
+input.ra-casper::placeholder, input.acesso::placeholder {
+    color: #C9BFB5;
+    font-size: 15px;
+    font-weight: 500;
+}
+
+span.alert {
+    color: #D36A71;
+    font-size: 13px;
+    text-align: right;
+    line-height: 20px;
+    float: right;
+    text-transform: lowercase;
+    font-weight: 600;
+    display: none;
+}
+
+.btns{
+    clear: both;
+}
+
+.bt{
+    width: 100%;
+    text-transform: uppercase;
+    font-size: 15px;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.bt:hover{
+    color: #fff;
+}
+
+input.btn-envio {
+    background: #00C7E6;
+    border: none;
+    margin: 7px 0;
+    color: #fff;
+    padding: 14px 20px;
+}
+
+input.btn-envio:hover {
+    background: #02abc5;
+    transition: 0.5s;
+
+}
+
+.btn-questao {
+  background: transparent;
+  border: 3px solid #00C7E6;
+  display: -webkit-box;
+  margin-top: 7px;
+  padding: 10px 20px;
+}
+
+.btn-questao:focus, .btn-questao:hover {
+    color: #53c8e6;
+    border: 3px solid #53c8e6;
+    background: rgba(83, 200, 230, 0.3);
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+.envio_disable {
+    background-color: #cccccc !important;
+}
+
+input.btn-envio:focus, a.btn.btn-questao:focus {
+    box-shadow: 0 0 0 0!important;
+    border: 0 none!important;
+    outline: 0!important;
+}
+
+a.terms{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 25px;
+    display: -webkit-inline-box;
+}
+
+.field-input {
+    height: 50px;
+    margin: 25px 0;
+}
+
+.img-login {
+    background-image: url(img/user-2.svg);
+    background-repeat: no-repeat;
+}
+
+.img-senha {
+    background-image: url(img/cadeado.svg);
+    background-repeat: no-repeat;
+}
+
+.versao {
+    width: 290px;
+    margin: 2px auto;
+    padding: 30px 0;
+}
+
+span.ano {
+    color: #C4B7B7;
+    font-size: 16px;
+    font-weight: 500;
+    float: left;
+}
+
+a.casper-link {
+    color: #BCAEAE;
+    font-size: 14px;
+    font-weight: 700;
+    float: right;
+    text-decoration: none;
+}
+
+footer{
+    background-color: #ffffff!important;
+}
+
+
+/******** Modal *******************************/
+.modal-header {
+    padding: 15px;
+    border-bottom: none;
+}
+
+.modal-body{
+    position: relative;
+    padding: 15px;
+    background: #fff;
+    border-radius: 5px 5px 0 0;
+}
+
+.icone-modal {
+    text-align: center;
+}
+
+.modal h3.sucesso {
+    color: #59c187;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.modal h3.erro {
+    color: #c54646;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+p {
+    font-size: 16px;
+    color: #646363;
+}
+
+.modal-content p {
+    margin: 20px 0 0 0;
+        text-align: center;
+}
+
+.modal .menu{
+    height: 45px;
+}
+
+.modal ul li{
+    width: 35px;
+}
+
+.modal .btn-questao {
+    color: #797979;
+    text-align: center;
+    display: block;
+    background: #d6d6d6;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 25px 0 15px 0;
+}
+
+.alert-modal p {
+    font-size: 14px;
+    color: #c54646;
+    text-align: left;
+        margin: 0;
+}
+
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: none!important;
+    border: none!important;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    box-shadow: 0 3px 9px rgba(0,0,0,.5);
+    outline: 0;
+}
+
+.modal-dialog{
+    width: 380px;
+    margin: 15vh auto 5vh;
+}
+
+.modal ul.menu {
+    margin: 20px 0;
+    height: auto!important;
+    text-align: left;
+    width: 90%;
+}
+
+.modal ul li img{
+    width: 35px;
+    height: 35px;
+}
+
+.modal-backdrop{
+    background-color: #1c2742;
+}
+
+.modal-backdrop.in {
+    filter: alpha(opacity=50);
+    opacity: .95;
+}
+
+.modal-footer{
+    background: #fff;
+    border-radius: 0 0 4px 4px;
+}
+
+button.close {
+    position: absolute;
+    z-index: 3;
+    right: 15px;
+    top: -50px;
+}
+
+
+.close {
+    float: right;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-shadow: none;
+    filter: alpha(opacity=20);
+    /* opacity: .2; */
+    outline: none;
+    transition: 0.5s;
+}
+
+.close:focus, .close:hover{
+    color: #fff!important;
+}
+@media (max-width: 767px) and (min-width: 320px){
+    .modal-dialog {
+        width: 90%;
+        margin: 10vh auto 5vh;
+
+    }
+
+    .modal .menu {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        white-space: nowrap;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        height: 70px;
+    }
+
+    .menu-wrapper ul li{
+        width: auto;
+    }
+
+}
+
+/*Animação sem Animate*/
+.fade-in-top {
+    -webkit-animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+            animation: fade-in-top 1s cubic-bezier(0.390, 0.575, 0.565, 1.000) both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2019-4-22 16:2:35
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation fade-in-top
+ * ----------------------------------------
+ */
+@-webkit-keyframes fade-in-top {
+  0% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes fade-in-top {
+  0% {
+    -webkit-transform: translateY(-50px);
+            transform: translateY(-50px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+
+.fades {
+    -webkit-animation: fade-in 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+            animation: fade-in 0.2s cubic-bezier(0.390, 0.575, 0.565, 1.000) 1s both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2019-4-22 16:8:18
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation fade-in
+ * ----------------------------------------
+ */
+@-webkit-keyframes fades {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+@keyframes fades {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.shadow-inset-right {
+    -webkit-animation: shadow-inset-right 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: shadow-inset-right 0.4s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2019-4-22 16:13:57
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation shadow-inset-right
+ * ----------------------------------------
+ */
+@-webkit-keyframes shadow-inset-right {
+  0% {
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    box-shadow: inset -6px 0 14px -6px rgba(0, 0, 0, 0.5);
+  }
+}
+@keyframes shadow-inset-right {
+  0% {
+    box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0);
+  }
+  100% {
+    box-shadow: inset -6px 0 14px -6px rgba(0, 0, 0, 0.5);
+  }
+}
+
+.slide-in-right {
+    -webkit-animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+            animation: slide-in-right 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+}
+
+/* ----------------------------------------------
+ * Generated by Animista on 2019-4-22 16:16:46
+ * w: http://animista.net, t: @cssanimista
+ * ---------------------------------------------- */
+
+/**
+ * ----------------------------------------
+ * animation slide-in-right
+ * ----------------------------------------
+ */
+@-webkit-keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}
+@keyframes slide-in-right {
+  0% {
+    -webkit-transform: translateX(1000px);
+            transform: translateX(1000px);
+    opacity: 0;
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+    opacity: 1;
+  }
+}

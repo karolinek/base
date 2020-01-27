@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Adobe Login - Faculdade Cásper Líbero</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,800,900" rel="stylesheet">
+
+  <link rel="shortcut icon" href="https://casperlibero.edu.br/wp-content/uploads/2017/02/casperlibero.ico">
+</head>
+<body>
+
+<nav class="navbar fade-in-top">
+  <div class="logo-faculdade fade-in">
+    <a href="https://casperlibero.edu.br/" target="_blank"><img src="img/logo-casper-libero.png" alt="Logo Faculdade Cásper Líbero"/></a>
+    <a href="https://www.adobe.com" class="icone-adobe" target="_blank"><img src="img/logo-adobe-topo.png"  alt="Logo Adobe"/></a>
+  </div>
+</nav>
+
+<header>
+  <div class="barra-adobe fade-in-top">
+    <div class="container text-center">
+    <img src="img/adobe-icon.png">
+    <p>Adobe Creative Cloud</p>
+    </div>
+  </div>
+</header>
+
+<br>
+
+<div class="container">
+  <div class="container-fluid bg-3 text-center wrapper fade-in-top">
+    <div class="row">
+      <div class="col-sm-12 menu-wrapper">
+        <ul class="menu">
+          <li class="icone fades"><img src="img/icones/photoshop.svg"/><span>Photoshop</span></li>
+          <li class="icone fades"><img src="img/icones/illustrator.svg"/><span style="color: #df8821;">Illustrator</span></li>
+          <li class="icone fades"><img src="img/icones/premiere-pro.svg"/><span style="color: #956da1;">Premiere Pro</span></li>
+          <li class="icone fades"><img src="img/icones/indesign.svg"/><span style="color: #c14184;">InDesign</span></li>
+          <li class="icone fades"><img src="img/icones/bridge.svg"/><span style="color: #caa33d;">Bridge</span></li>
+          <li class="icone fades"><img src="img/icones/dreamweaver.svg"/><span style="color: #81be49;">Dreamweaver</span></li>
+          <li class="icone fades"><img src="img/icones/audition.svg"/><span style="color: #6dc2b9;">Audition</span></li>
+          <li class="icone fades"><img src="img/icones/after-effects.svg"/><span style="color: #814abd;">After Effects</span></li>
+          <li class="icone fades"><img src="img/icones/prelude.svg"/><span style="color: #54adc8;">Prelude</span></li>
+          <li class="icone fades"><img src="img/icones/lightroom.svg"/><span style="color: #8aafb6;">Lightroom</span></li>
+          <li class="icone fades"><img src="img/icones/adobe-xd.svg"/><span style="color: #d76ba5;">XD</span></li>
+        </ul>
+      </div>
+    </div>
+  </div><br>
+
+  <div class="container-fluid bg-3 text-center">
+    <div class="row">
+      <div class="col-sm-12">
+        <form action="" method="" id="requestForm" class="fade-in-top">
+        <h3>Controle de Licenças Cásper</h3>
+        <div class="field-input img-login slide-in-right">
+          <input type="text" name="login" id="login" class="ra-casper shadow-inset-right" placeholder="Digite RA">
+        </div>
+        <div class="field-input img-senha slide-in-right">
+          <input type="password" name="pass" id="pass" class="acesso shadow-inset-right" placeholder="Digite sua senha">
+        </div>
+        <div class="field btns">
+         <input type="submit" id="enviar" name="enviar" value="Verificar Disponibilidade" class="bt btn-envio">
+        </div>
+        <div class="field btns">
+          <a href="https://portaldoaluno.casperlibero.edu.br/2019/06/17/parceria-adobe-e-casper-solicite-a-sua-licenca-graduacao" target="_blank" class="bt btn-questao">Como usar as licenças?</a>
+        </div>
+        </form>
+      <div class="versao">
+        <span class="ano">© 2019 Adobe</span>
+        <a  class="casper-link" href="https://casperlibero.edu.br/" target="_blank">casperlibero.edu.br</a>
+      </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Modal Sucesso -->
+  <div class="modal fade" tabindex="-1" role="dialog" id="modalSuccess">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        <div class="modal-header">
+        </div>
+        <div class="modal-body">
+          <div class="icone-modal">
+            <img src="img/icones/farol-verde.svg"/>
+            <h3 class="sucesso">Aê, deu tudo certo!</h3>
+          </div>
+          <div class="text-modal">
+          <p>Em breve você terá acesso ao <strong>Adobe Creative Cloud</strong>, aguarde o término do prazo de solicitação e fique atento ao seu email Cásper.</p>
+          <div class="lista wrapper">
+            <div class="menu-wrapper">
+             <ul class="menu">
+                <li class="icone"><img src="img/icones/photoshop.svg"/></li>
+                <li lass="icone"><img src="img/icones/illustrator.svg"/></li>
+                <li class="icone"><img src="img/icones/premiere-pro.svg"/></li>
+                <li class="icone"><img src="img/icones/indesign.svg"/></li>
+                <li class="icone"><img src="img/icones/bridge.svg"/></li>
+                <li class="icone"><img src="img/icones/dreamweaver.svg"/></li>
+                <li class="icone"><img src="img/icones/audition.svg"/></li>
+                <li class="icone"><img src="img/icones/after-effects.svg"/></li>
+                <li class="icone"><img src="img/icones/prelude.svg"/></li>
+                <li class="icone"><img src="img/icones/lightroom.svg"/></li>
+                <li class="icone"><img src="img/icones/adobe-xd.svg"/></li>
+              </ul>
+            </div>
+          </div>
+          <p>O plano disponibiliza mais de 20 aplicativos de edição de imagem e vídeo como <strong>Photoshop</strong>, <strong>Premiere</strong> e o <strong>Illustrator.</strong>
+          </div>
+          <a href="https://portaldoaluno.casperlibero.edu.br/2019/06/17/parceria-adobe-e-casper-solicite-a-sua-licenca-graduacao" target="_blank" class="bt btn-questao">Como usar as licenças?</a>
+        </div>
+        <div class="modal-footer">
+          <div class="alert-modal"><p>Obs. O prazo para solicitar a licença é de <strong>17</strong> a <strong>28 de junho de 2019</strong>.</p>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+  </div>
+
+  <!-- Modal Erro -->
+  <div class="modal fade" tabindex="-1" role="dialog" id="modalFail">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body">
+          <div class="icone-modal">
+            <img src="img/icones/farol-vermelho.svg"/>
+            <h3 class="erro">Ops!</h3>
+          </div>
+          <div class="text-modal">
+          <strong><p id="failMessage"></p></strong>
+          <p>Em caso de dúvida procure o coordenador do seu curso para maiores detalhes.</p>
+          </div>
+        </div>
+        <div class="modal-footer">
+          <div class="alert-modal"><p>Obs. O prazo para solicitar a licença é de <strong>17</strong> a <strong>28 de junho de 2019</strong>.</p>
+        </div>
+      </div><!-- /.modal-content -->
+    </div><!-- /.modal-dialog -->
+  </div><!-- /.modal -->
+</div>
+<footer class="container-fluid text-center"></footer>
+<script src="js/config.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="90px" height="100px" viewBox="0 0 90 100" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>farol vermelho</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Results-No-2" transform="translate(-143.000000, -130.000000)" fill-rule="nonzero">
+            <g id="farol-vermelho" transform="translate(144.000000, 131.000000)">
+                <circle id="Oval-Copy-15" fill="#C54646" cx="45.5" cy="30.5" r="9.5"></circle>
+                <rect id="Rectangle" stroke="#C54646" x="23.5" y="15.5" width="40" height="70" rx="14"></rect>
+                <circle id="Oval" stroke="#979797" cx="43.5" cy="28.5" r="9.5"></circle>
+                <circle id="Oval-Copy-17" fill="#D6D6D6" cx="45.5" cy="52.5" r="9.5"></circle>
+                <circle id="Oval" stroke="#C54646" cx="81" cy="11" r="2"></circle>
+                <circle id="Oval-Copy-20" stroke="#C54646" cx="57" cy="96" r="2"></circle>
+                <circle id="Oval-Copy-25" stroke="#C54646" cx="12.5" cy="86.5" r="3.5"></circle>
+                <circle id="Oval-Copy-26" stroke="#C54646" cx="2.5" cy="26.5" r="2.5"></circle>
+                <circle id="Oval-Copy-27" stroke="#C54646" cx="27" cy="3" r="3"></circle>
+                <circle id="Oval-Copy-29" stroke="#79E8AB" cx="15" cy="13" r="2"></circle>
+                <circle id="Oval-Copy-30" stroke="#79E8AB" cx="86.5" cy="38.5" r="1.5"></circle>
+                <circle id="Oval-Copy-31" fill="#79E8AB" cx="2.5" cy="54.5" r="1.5"></circle>
+                <circle id="Oval-Copy-28" stroke="#C54646" cx="10.5" cy="38.5" r="1.5"></circle>
+                <circle id="Oval-Copy-22" stroke="#C54646" cx="85" cy="68" r="2"></circle>
+                <circle id="Oval-Copy-24" stroke="#C54646" cx="75.5" cy="84.5" r="2.5"></circle>
+                <circle id="Oval-Copy-21" stroke="#C54646" cx="67.5" cy="9.5" r="1.5"></circle>
+                <circle id="Oval-Copy-23" stroke="#C54646" fill="#D8D8D8" cx="76.5" cy="30.5" r="1.5"></circle>
+                <circle id="Oval-Copy-16" stroke="#979797" cx="43.5" cy="50.5" r="9.5"></circle>
+                <circle id="Oval-Copy-19" fill="#D6D6D6" cx="45.5" cy="73.5" r="9.5"></circle>
+                <circle id="Oval-Copy-18" stroke="#979797" cx="43.5" cy="71.5" r="9.5"></circle>
+                <path d="M78,55 L79.5,55 C79.7761424,55 80,55.2238576 80,55.5 C80,55.7761424 79.7761424,56 79.5,56 L78,56 L78,57.5 C78,57.7761424 77.7761424,58 77.5,58 C77.2238576,58 77,57.7761424 77,57.5 L77,56 L75.5,56 C75.2238576,56 75,55.7761424 75,55.5 C75,55.2238576 75.2238576,55 75.5,55 L77,55 L77,53.5 C77,53.2238576 77.2238576,53 77.5,53 C77.7761424,53 78,53.2238576 78,53.5 L78,55 Z" id="Combined-Shape" fill="#79E8AB"></path>
+                <path d="M35.5,93.6 L36.6,93.6 C36.8209139,93.6 37,93.7790861 37,94 C37,94.2209139 36.8209139,94.4 36.6,94.4 L35.5,94.4 L35.5,95.5 C35.5,95.7761424 35.2761424,96 35,96 C34.7238576,96 34.5,95.7761424 34.5,95.5 L34.5,94.4 L33.4,94.4 C33.1790861,94.4 33,94.2209139 33,94 C33,93.7790861 33.1790861,93.6 33.4,93.6 L34.5,93.6 L34.5,92.5 C34.5,92.2238576 34.7238576,92 35,92 C35.2761424,92 35.5,92.2238576 35.5,92.5 L35.5,93.6 Z" id="Combined-Shape-Copy" fill="#79E8AB"></path>
+                <path d="M7.5,71.6 L8.6,71.6 C8.8209139,71.6 9,71.7790861 9,72 C9,72.2209139 8.8209139,72.4 8.6,72.4 L7.5,72.4 L7.5,73.5 C7.5,73.7761424 7.27614237,74 7,74 C6.72385763,74 6.5,73.7761424 6.5,73.5 L6.5,72.4 L5.4,72.4 C5.1790861,72.4 5,72.2209139 5,72 C5,71.7790861 5.1790861,71.6 5.4,71.6 L6.5,71.6 L6.5,70.5 C6.5,70.2238576 6.72385763,70 7,70 C7.27614237,70 7.5,70.2238576 7.5,70.5 L7.5,71.6 Z" id="Combined-Shape-Copy-2" fill="#79E8AB"></path>
+            </g>
+        </g>
+    </g>
+</svg>

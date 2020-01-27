@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="94px" height="94px" viewBox="0 0 94 94" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 52.6 (67491) - http://www.bohemiancoding.com/sketch -->
+    <title>Group 53 Copy</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polyline id="path-1" points="0.548527778 0.330418605 20.5133889 0.330418605 20.5133889 5.50955814 6.86219444 5.50955814 6.86219444 15.0495349 19.5902778 15.0495349 19.5902778 20.2286744 6.86219444 20.2286744 6.86219444 34.8961628 0.548527778 34.8961628 0.548527778 0.330418605"></polyline>
+        <linearGradient x1="-0.300194091%" y1="49.9987553%" x2="147.895191%" y2="49.9987553%" id="linearGradient-3">
+            <stop stop-color="#B03B3C" offset="0%"></stop>
+            <stop stop-color="#B0292E" offset="100%"></stop>
+        </linearGradient>
+        <linearGradient x1="-365.456022%" y1="50%" x2="99.4560217%" y2="50%" id="linearGradient-4">
+            <stop stop-color="#B03B3C" offset="0%"></stop>
+            <stop stop-color="#B0292E" offset="100%"></stop>
+        </linearGradient>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group-53-Copy" transform="translate(3.000000, 3.000000)">
+            <g id="Group-13" transform="translate(28.000000, 25.000000)">
+                <g id="Group-120" transform="translate(0.000000, 1.720930)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-119"></g>
+                    <polyline id="Fill-118" fill="url(#linearGradient-3)" mask="url(#mask-2)" points="0.548527778 0.330418605 20.5133889 0.330418605 20.5133889 5.50955814 6.86219444 5.50955814 6.86219444 15.0495349 19.5902778 15.0495349 19.5902778 20.2286744 6.86219444 20.2286744 6.86219444 34.8961628 0.548527778 34.8961628 0.548527778 0.330418605"></polyline>
+                </g>
+                <polygon id="Fill-122" fill="url(#linearGradient-4)" points="24.1111111 36.4114419 30.4747222 36.4114419 30.4747222 1.42108547e-14 24.1111111 1.42108547e-14"></polygon>
+            </g>
+            <circle id="Oval-Copy-4" stroke="#B03336" stroke-width="5" fill-rule="nonzero" cx="44" cy="44" r="44"></circle>
+        </g>
+    </g>
+</svg>
